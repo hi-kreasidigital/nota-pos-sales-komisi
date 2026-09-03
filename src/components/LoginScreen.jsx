@@ -18,16 +18,7 @@ export default function LoginScreen({ onLogin, error }) {
         {error && <div className="msg-err">{error}</div>}
         <button className="btn green block" style={{ marginTop: 12 }} onClick={() => onLogin(pin)}>MASUK</button>
       </div>
-      <footer style={{ textAlign: 'center', marginTop: 24, fontSize: 12, color: '#888' }}>
-        
-          href="https://kreasi-digital-landing.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: '#888', textDecoration: 'underline' }}
-        >
-          Powered by Kreasi Digital
-        </a>
-      </footer>
+      <footer style={{ textAlign: 'center', marginTop: 24, fontSize: 12, color: '#888' }}><a href="https://kreasi-digital-landing.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#888', textDecoration: 'underline' }}>Powered by Kreasi Digital</a></footer>
     </>
   );
 }
